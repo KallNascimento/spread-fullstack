@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,900&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.horizontal-line {
+    width: 100%;
+    height: 1px;
+    border: 1px solid gray;
+}
+
+.login__container {
+    width: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.login__container-left {
+    width: auto;
+}
+
+.login__container-left img {
+    max-width: 70vh;
+}
+
+.login__container-right__middle {
+    display: flex;
+    align-items: center;
+    margin-top: 12px;
+}
+
+.login__container-right {
+    display: flex;
+    flex-direction: column;
+    
+    border: 1px solid #b2b2b5;
+    height: auto;
+    padding: 20px;
+    width: 100%;
+    margin-top: 20%;
+}
+
+.login__container-right__inputs {
+    display: flex;
+    flex-direction: column;
+}
+
+.login__container-right__inputs input {
+    height: 30px;
+    margin: 3px;
+}
+
+.login__container-right__inputs button {
+    height: 30px;
+    margin-top: 10px;
+    font-size: 14px;
+    background-color: #1a6fde;
+    border-radius: 4px;
+    padding: 5px 9px;
+    color: aliceblue;
+    border: none;
+}
+
+.login__container-right__logo {
+    display: flex;
+    justify-content: center;
+}
+
+.login__container-right__logo img {
+    width: 20vh;
+}
+
+.button__download {
+    width: 15vh;
+    height: 5vh;
+    border: 3px solid rgb(145, 142, 142);
+    border-radius: 10px;
+    background-color: #000;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 3px;
+}
+
+.button__download_text {
+    display: flex;
+    flex-direction: column;
+}
+
+.store__name {
+    font-size: 1em;
+}
+
+.store__title {
+    font-size: .1em;
+}
+
+.login__container-right__bottom-container {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.login__container-right__buttons__group {
+    display: flex;
+    justify-items: center;
+}
+
+.login__container-right__create-account {
+    display: flex;
+    justify-content: center;
+    border: 1px solid #b2b2b5;
+    margin-top: 10px;
+    width: 100%;
+    padding: 20px;
+}
+.login__container-right__create-account a{
+ margin-left: 5px;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    flex-wrap: nowrap;
+    color: #b2b2b5;
+    position: absolute;
+    bottom: 0;
+    padding: 10vh;
+    margin-top: 10vh;
+}
+footer a {
+    margin: 5px;
+    font-size: 13px;
+    color: #b2b2b5;
+}
+.line3 {
+    margin-top: 10px;
+}
