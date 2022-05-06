@@ -7,10 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Instagram</title>
+    <link rel="stylesheet" href="./src/css/reset.css">
     <link rel="stylesheet" href="./src/css/style.css">
-    <link rel="apple-touch-icon" sizes="180x180" href="./src/img/favicons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="./src/img/favicons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="./src/img/favicons/favicon-16x16.png">
     <link rel="icon" type="image/x-icon" sizes="16x16" href="./src/img/favicons/favicon.ico">
     <link rel="manifest" href="./src/img/favicons/site.webmanifest">
 
@@ -19,7 +17,8 @@
 <body>
     <div class="login__container">
         <section class="login__container-left">
-            <img src="./src/img/instagram-celular.png" alt="">
+            <img src="./src/img/instagram-celular.png" alt="Imagem de um celular com página do instagram"
+                title="Instagram" />
         </section>
 
         <section>
@@ -28,7 +27,7 @@
                     <img src="./src/img/logo.png" alt="instagram_logo"></span>
                 <div class="login__container-right__inputs">
                     <input type="text" placeholder="Telefone, nome de usuario ou email">
-                    <input type="password" placeholder="senha" name="" id="">
+                    <input type="password" placeholder="Senha" name="" id="">
                     <button>Entrar</button>
                 </div>
                 <div class="login__container-right__middle">
@@ -48,48 +47,51 @@
                 </div>
             </div>
 
-            <section class="login__container-right__bottom-container">
-                <div class="login__container-right__create-account">
+            <section class="login__container-right__create-account">
+                <div>
                     <span>Não tem uma conta?</span> <a href="#"
                         style="color: cornflowerblue; font-weight: 600;">Cadastre-se</a>
                 </div>
             </section>
-            <section style="display: flex; flex-direction: column;">
-                <div style="text-align: center; padding: 20px;">
+
+
+            <section class="login__container-right__bottom-container">
+                <div class="get-the-app">
                     <span>Obtenha o aplicativo.</span>
                 </div>
-
                 <div class="login__container-right__buttons__group">
-                    <div class="button__download">
-                        <svg style="width:2em; color:white" viewBox="0 0 24 24">
-                            <path fill="currentColor"
-                                d="M18.71,19.5C17.88,20.74 17,21.95 15.66,21.97C14.32,22 13.89,21.18 12.37,21.18C10.84,21.18 10.37,21.95 9.1,22C7.79,22.05 6.8,20.68 5.96,19.47C4.25,17 2.94,12.45 4.7,9.39C5.57,7.87 7.13,6.91 8.82,6.88C10.1,6.86 11.32,7.75 12.11,7.75C12.89,7.75 14.37,6.68 15.92,6.84C16.57,6.87 18.39,7.1 19.56,8.82C19.47,8.88 17.39,10.1 17.41,12.63C17.44,15.65 20.06,16.66 20.09,16.67C20.06,16.74 19.67,18.11 18.71,19.5M13,3.5C13.73,2.67 14.94,2.04 15.94,2C16.07,3.17 15.6,4.35 14.9,5.19C14.21,6.04 13.07,6.7 11.95,6.61C11.8,5.46 12.36,4.26 13,3.5Z" />
-                        </svg>
-                        <span class="button__download_text">
-                            <span class="store__title">
-                                Download on the
-                            </span>
-                            <span class="store__name">
-                                App Store
-                            </span>
-                        </span>
-                    </div>
-
-
-                    <div class="button__download">
-                        <svg style="width:2em; color:white" viewBox="0 0 24 24">
-                            <path fill="currentColor"
-                                d="M3,20.5V3.5C3,2.91 3.34,2.39 3.84,2.15L13.69,12L3.84,21.85C3.34,21.6 3,21.09 3,20.5M16.81,15.12L6.05,21.34L14.54,12.85L16.81,15.12M20.16,10.81C20.5,11.08 20.75,11.5 20.75,12C20.75,12.5 20.53,12.9 20.18,13.18L17.89,14.5L15.39,12L17.89,9.5L20.16,10.81M6.05,2.66L16.81,8.88L14.54,11.15L6.05,2.66Z" />
-                        </svg>
-                        <span class="button__download_text">
-                            <span class="store__title">
-                                GET IT ON
-                            </span>
-                            <span class="store__name">
-                                Google Play
-                            </span>
-                        </span>
-                    </div>
+                    <a href="https://apps.apple.com/br/app/instagram/id389801252" target="_blank">
+                        <div class="button__download">
+                            <svg style="width:2em; color:white" viewBox="0 0 24 24">
+                                <path fill="currentColor"
+                                    d="M18.71,19.5C17.88,20.74 17,21.95 15.66,21.97C14.32,22 13.89,21.18 12.37,21.18C10.84,21.18 10.37,21.95 9.1,22C7.79,22.05 6.8,20.68 5.96,19.47C4.25,17 2.94,12.45 4.7,9.39C5.57,7.87 7.13,6.91 8.82,6.88C10.1,6.86 11.32,7.75 12.11,7.75C12.89,7.75 14.37,6.68 15.92,6.84C16.57,6.87 18.39,7.1 19.56,8.82C19.47,8.88 17.39,10.1 17.41,12.63C17.44,15.65 20.06,16.66 20.09,16.67C20.06,16.74 19.67,18.11 18.71,19.5M13,3.5C13.73,2.67 14.94,2.04 15.94,2C16.07,3.17 15.6,4.35 14.9,5.19C14.21,6.04 13.07,6.7 11.95,6.61C11.8,5.46 12.36,4.26 13,3.5Z" />
+                            </svg>
+                            <div class="button__download_text">
+                                <span class="store__title">
+                                    Download on the
+                                </span>
+                                <span class="store__name">
+                                    App Store
+                                </span>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="https://play.google.com/store/apps/details?id=com.instagram.android&hl=pt_BR&gl=US" target="_blank">
+                        <div class="button__download">
+                            <svg class="button__icon" viewBox="0 0 24 24">
+                                <path fill="currentColor"
+                                    d="M3,20.5V3.5C3,2.91 3.34,2.39 3.84,2.15L13.69,12L3.84,21.85C3.34,21.6 3,21.09 3,20.5M16.81,15.12L6.05,21.34L14.54,12.85L16.81,15.12M20.16,10.81C20.5,11.08 20.75,11.5 20.75,12C20.75,12.5 20.53,12.9 20.18,13.18L17.89,14.5L15.39,12L17.89,9.5L20.16,10.81M6.05,2.66L16.81,8.88L14.54,11.15L6.05,2.66Z" />
+                            </svg>
+                            <div class="button__download_text">
+                                <span class="store__title">
+                                    GET IT ON
+                                </span>
+                                <span class="store__name">
+                                    Google Play
+                                </span>
+                            </div>
+                        </div>
+                    </a>
                 </div>
             </section>
         </section>
@@ -110,6 +112,7 @@
             <a href="#">Localizações</a>
             <a href="#">Instagram Lite</a>
         </div>
+
         <div class="line2">
             <a href="#">Dança</a>
             <a href="#">Comida e bebida</a>
@@ -119,7 +122,7 @@
         </div>
 
         <div class="line3">
-            Português (Brasil) © 2022 Instagram from Meta
+            Português (Brasil) &copy; 2022 Instagram from Meta
         </div>
 
     </footer>
